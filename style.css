@@ -55,9 +55,7 @@ header.site{
 }
 .brand .badge{
   width:44px;height:44px;border-radius:50%;
-  background:radial-gradient(circle at 35% 30%, var(--gold-light), var(--clay));
-  display:flex;align-items:center;justify-content:center;
-  color:var(--cream);font-family:'Tiro Bangla',serif;font-weight:700;font-size:1.15rem;
+  object-fit:cover;
   border:2px solid var(--gold);
   flex-shrink:0;
 }
